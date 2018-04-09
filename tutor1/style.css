@@ -1,0 +1,27 @@
+
+em{
+
+    color:red;
+}
+
+h1{
+    color: yellowgreen;
+}
+
+strong{
+    color: royalblue;
+    background-color:darkgrey;
+}
+
+.classA{
+    color:darkorchid;
+}
+
+.b{
+    color:green;
+}
+
+.a{
+    font-size: 36px;
+    color:blue;
+}
