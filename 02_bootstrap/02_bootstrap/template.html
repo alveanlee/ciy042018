@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Walkthrough</title>
+
+    <!-- default bootstrap: style your page like twitter -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- theme files: used to style over default bootstrap -->
+    <!-- try themes from: https://startbootstrap.com/-->
+    <!-- <link rel="stylesheet" type="text/css" href="theme.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="theme2.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="theme3.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="theme4.css"> -->
+
+    <!-- font awesome -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- animate.css: used to apply quick css animations -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
+    
+    <!--our own custom css overrides-->
+    <link rel="stylesheet" href="custom.css">
+
+    <!-- use this style for testing and development purposes only -->
+    <style type="text/css">
+    .container{border: 2px dotted green;}
+    .row{border: 1px dotted red;}
+    .row [class*=' col-']{border: 2px dotted purple;}
+    </style>
+    
+</head>
+<body>
+
+   <!-- <div class="container">
+        <div class="row">
+        
+            <div class="col-xs-2">
+                test
+            </div>
+
+            <div class="col-xs-10">
+                    test
+            </div>
+
+        </div>
+                
+        <div class="row">
+        
+            <div class="col-xs-10">
+               test
+           </div>
+        
+            <div class="col-xs-2">
+                test
+            </div>
+        
+        </div>
+    -->                
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="jumbotron">
+                <h1>Welcome to CIY</h1>
+                <p>
+                    Cats and Code
+                </p>
+
+                <p>
+                    <a href="#" class="btn btn-success">
+                        Lets start coding
+                    </a>
+                </p>
+
+            </div>
+        </div>
+    </div>
+     
+
+    <div class="row">
+        <div class="col-sm-4">
+            
+            <div class="thumbnail">
+                <img src="http://via.placeholder.com/800x600" alt="">
+            </div>
+            
+            <h2 Thumbnail label></h2>
+            
+            <p>
+                This is really the first thumbnail test for myself
+            </p>
+            
+            <a href="#" class="btn btn-success">
+                Action
+            </a>
+        </div>
+        
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="http://via.placeholder.com/800x600" alt="">
+            </div>
+                    
+            <h2 Thumbnail label></h2>
+                    
+            <p>
+                This is really the second thumbnail test for myself
+            </p>
+                    
+             <a href="#" class="btn btn-success">
+                Action
+             </a>
+         </div>
+                
+                    
+        <div class="col-sm-4">
+             <div class="thumbnail">
+                <img src="http://via.placeholder.com/800x600" alt="">
+            </div>
+                            
+            <h2 Thumbnail label></h2>
+                            
+           <p>
+            This is really the third thumbnail test for myself
+           </p>
+                            
+            <a href="#" class="btn btn-success">
+            Action
+            </a>
+         </div>
+     </div>
+
+
+    <div class="row">
+        <div class="col-sm-12">
+
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VXJB9lBGtAQ" frameborder="0"></iframe>
+            </div>
+
+        </div>
+    </div>
+                     
+
+    <div class="row">
+        <div class="col-sm-6">
+            <form>
+                <div class="form-group">
+                    <label for = "">Email Address</label>
+                    <input class="form-control" type="text">
+                </div>
+
+                <div class="form-group">
+                    <label for = "">Password</label>
+                    <input class="form-control" type="password">
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" class="btn btn-primary">
+                </div>
+            </form>
+        </div>
+        
+        <div class="col-sm-6">
+            <h1 class="primary">Test title</h1>
+            <p> testing testing testing</p>
+        </div>
+    </div>            
+   
+    
+    <div class="row">
+        <div class="col-sm-4">
+                <h3 class="text-center">Opening Hours</h3>
+                
+                <table class="table wow fadeInLeft">
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Hours</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <tr>
+                            <td>Monday to Thursday</td>
+                            <td>9am - 5pm</td>
+                        </tr>
+                        <tr>
+                            <td>Friday and Saturday</td>
+                            <td>11am - 3am</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>closed</td>
+                        </tr>
+                    </tbody>
+                </table>
+                   
+        </div>  
+
+        <div class="col-sm-4">
+
+            <div class="embed-responsive embed-responsive-4by3">
+                    <iframe src="https://goo.gl/KUBB7L" class="responsive-embed"></iframe>
+            </div> 
+
+
+        </div>      
+
+        <div class="col-sm-4">
+            
+                <h3>
+                   Check me out
+                </h3>
+                    
+                <div class="list-group">
+                        <a href="#" class="list-group-item"><i class="fa fa-phone fa-fw" aria-hidden="true"></i> +65 9456 4280</a>
+                        <a href="#" class="list-group-item"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i> hello@meet.me</a>
+                        <a href="#" class="list-group-item"><i class="fa fa-telegram fa-fw" aria-hidden="true"></i> t.me/alvean</a>
+                </div>
+            
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+            
+             <ul class="list-inline">
+                <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram fa-2x"></i></a></li>
+                <li><a href="#"><i class="fa fa-snapchat fa-2x"></i></a></li>
+                <li><a href="#"><i class="fa fa-google fa-2x"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    
+</div>
+
+
+</div>
+
+
+  <!-- <div class="container">
+            <div class="row">
+                
+                <div class="col-xs-6 col-md-4 col-lg-3">
+                    test
+                </div>
+        
+                <div class="col-xs-6 col-md-4 col-lg-3">
+                    test
+                </div>
+        
+                <div class="col-xs-6 col-md-4 col-lg-3">
+                   test
+                </div>
+                
+                <div class="col-xs-6 col-md-4 col-lg-3">
+                    test
+                </div>
+                
+                </div>
+
+
+
+
+
+    </div>-->
+
+    
+
+
+
+
+    
+
+<!-- jquery: used by bootstrap.js -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- bootstrap js: used to run fancy components like carousel -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- wow.js: used to make animate.css run on view -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/wow/1.1.2/wow.min.js"></script>
+<script>new WOW().init();</script>
+</body>
+</html>
