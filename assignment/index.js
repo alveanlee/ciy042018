@@ -43,7 +43,6 @@ renderList();
 
 
 //numbers.push;
-
 function doPush(){
     console.log(" >>>>> " + numbers.length);
     numbers.push(numbers.length + 1);
@@ -86,5 +85,5 @@ function doSort(){
     numbers.sort(function(a,b){
         return b - a
     })
-        renderList();
+    renderList();
 }
